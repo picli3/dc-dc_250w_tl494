@@ -1,0 +1,7 @@
+*.bak
+*.kicad_pcb-bak
+*-bak
+.DS_Store
+3D/
+*.zip
+*.bck
