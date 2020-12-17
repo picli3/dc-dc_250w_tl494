@@ -259,7 +259,7 @@ FILTRADO
 Wire Notes Line
 	5700 2950 5700 2300
 $Comp
-L Mechanical:MountingHole_Pad H3
+L fuente_smps_250w-rescue:MountingHole_Pad-Mechanical H3
 U 1 1 5F985F1B
 P 6600 5750
 F 0 "H3" H 6700 5799 50  0000 L CNN
@@ -273,7 +273,7 @@ $EndComp
 Wire Wire Line
 	6600 5900 6600 5850
 $Comp
-L Mechanical:MountingHole_Pad H4
+L fuente_smps_250w-rescue:MountingHole_Pad-Mechanical H4
 U 1 1 5F987739
 P 6900 5750
 F 0 "H4" H 7000 5799 50  0000 L CNN
@@ -287,7 +287,7 @@ $EndComp
 Wire Wire Line
 	6900 5900 6900 5850
 $Comp
-L Mechanical:MountingHole_Pad H1
+L fuente_smps_250w-rescue:MountingHole_Pad-Mechanical H1
 U 1 1 5F988874
 P 3650 5750
 F 0 "H1" H 3750 5799 50  0000 L CNN
@@ -312,7 +312,7 @@ $EndComp
 Wire Wire Line
 	3650 5900 3650 5850
 $Comp
-L Mechanical:MountingHole_Pad H2
+L fuente_smps_250w-rescue:MountingHole_Pad-Mechanical H2
 U 1 1 5F98888A
 P 3950 5750
 F 0 "H2" H 4050 5799 50  0000 L CNN

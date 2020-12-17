@@ -306,22 +306,6 @@ X Compensation 9 700 -550 150 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Mechanical_MountingHole_Pad
-#
-DEF Mechanical_MountingHole_Pad H 0 40 N N 1 F N
-F0 "H" 0 250 50 H V C CNN
-F1 "Mechanical_MountingHole_Pad" 0 175 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- MountingHole*Pad*
-$ENDFPLIST
-DRAW
-C 0 50 50 0 1 50 N
-X 1 1 0 -100 100 U 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
 # Transformer_TRANSF5
 #
 DEF Transformer_TRANSF5 TR 0 0 N Y 1 F N
@@ -351,6 +335,22 @@ X ~ 3 -200 -200 100 R 50 50 1 1 P
 X ~ 4 200 -200 100 L 50 50 1 1 P
 X ~ 5 200 0 100 L 50 50 1 1 P
 X ~ 6 200 200 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# fuente_smps_250w-rescue_MountingHole_Pad-Mechanical
+#
+DEF fuente_smps_250w-rescue_MountingHole_Pad-Mechanical H 0 40 N N 1 F N
+F0 "H" 0 250 50 H V C CNN
+F1 "fuente_smps_250w-rescue_MountingHole_Pad-Mechanical" 0 175 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*Pad*
+$ENDFPLIST
+DRAW
+C 0 50 50 0 1 50 N
+X 1 1 0 -100 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
