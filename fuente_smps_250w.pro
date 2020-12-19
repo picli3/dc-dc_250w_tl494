@@ -1,4 +1,4 @@
-update=10/23/2020 11:31:07 AM
+update=18/12/2020 22:10:58
 version=1
 last_client=kicad
 [general]
@@ -243,7 +243,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=C:/Users/Maykol/Google Drive/normasIPC/HOJA_KICAD/maykolrey.com.kicad_wks
-PlotDirectoryName=
+PlotDirectoryName=doc/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew

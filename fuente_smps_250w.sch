@@ -8,7 +8,7 @@ Title "Fuente conmutada +/-36V 250W"
 Date "2020-10-23"
 Rev "V 0.1.0"
 Comp "PCB PROFESIONAL"
-Comment1 ""
+Comment1 "https://maykolrey.com"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -16,8 +16,8 @@ $EndDescr
 $Sheet
 S 3800 2650 950  750 
 U 5F9067C9
-F0 "OSC_SG3525" 50
-F1 "OSC_SG3525.sch" 50
+F0 "OSC_TL494" 50
+F1 "OSC_TL494.sch" 50
 F2 "Sense" I L 3800 3200 50 
 F3 "shutdown" O L 3800 2800 50 
 F4 "Out_A" O R 4750 2800 50 
@@ -36,10 +36,10 @@ F 3 "~" H 3150 2800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+12V #PWR06
+L power:+12V #PWR01
 U 1 1 5F934619
 P 3450 2600
-F 0 "#PWR06" H 3450 2450 50  0001 C CNN
+F 0 "#PWR01" H 3450 2450 50  0001 C CNN
 F 1 "+12V" H 3465 2773 50  0000 C CNN
 F 2 "" H 3450 2600 50  0001 C CNN
 F 3 "" H 3450 2600 50  0001 C CNN
@@ -51,10 +51,10 @@ Wire Wire Line
 Wire Wire Line
 	3450 2700 3350 2700
 $Comp
-L power:GND #PWR07
+L power:GND #PWR02
 U 1 1 5F934E96
 P 3450 2950
-F 0 "#PWR07" H 3450 2700 50  0001 C CNN
+F 0 "#PWR02" H 3450 2700 50  0001 C CNN
 F 1 "GND" H 3455 2777 50  0000 C CNN
 F 2 "" H 3450 2950 50  0001 C CNN
 F 3 "" H 3450 2950 50  0001 C CNN
@@ -128,10 +128,10 @@ Wire Wire Line
 Wire Wire Line
 	3350 2800 3800 2800
 $Comp
-L MSS_Optocopler:LTV-817S-TA1 U2
+L MSS_Optocopler:LTV-817S-TA1 U1
 U 1 1 5F92E8F7
 P 5700 4850
-F 0 "U2" H 5900 5050 50  0000 C CNN
+F 0 "U1" H 5900 5050 50  0000 C CNN
 F 1 "LTV-817S-TA1" H 5725 5084 50  0001 C CNN
 F 2 "Package_DIP:DIP-4_W7.62mm_LongPads" H 5650 4850 50  0001 C CNN
 F 3 "http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series%20201610%20.pdf" H 5650 4850 50  0001 C CNN
@@ -139,10 +139,10 @@ F 3 "http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20s
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D_Zener_ALT D3
+L Device:D_Zener_ALT D1
 U 1 1 5F9317CF
 P 6850 4750
-F 0 "D3" H 6850 4533 50  0000 C CNN
+F 0 "D1" H 6850 4533 50  0000 C CNN
 F 1 "D_Zener_ALT" H 6850 4624 50  0000 C CNN
 F 2 "Diode_THT:D_A-405_P10.16mm_Horizontal" H 6850 4750 50  0001 C CNN
 F 3 "~" H 6850 4750 50  0001 C CNN
@@ -150,10 +150,10 @@ F 3 "~" H 6850 4750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:D_Zener_ALT D4
+L Device:D_Zener_ALT D2
 U 1 1 5F93291B
 P 7450 4750
-F 0 "D4" H 7450 4533 50  0000 C CNN
+F 0 "D2" H 7450 4533 50  0000 C CNN
 F 1 "D_Zener_ALT" H 7450 4624 50  0000 C CNN
 F 2 "Diode_THT:D_A-405_P10.16mm_Horizontal" H 7450 4750 50  0001 C CNN
 F 3 "~" H 7450 4750 50  0001 C CNN
@@ -165,10 +165,10 @@ Wire Wire Line
 Wire Wire Line
 	7000 4750 7300 4750
 $Comp
-L Device:R R14
+L Device:R R2
 U 1 1 5F933DFD
 P 7150 4950
-F 0 "R14" V 7265 4950 50  0000 C CNN
+F 0 "R2" V 7265 4950 50  0000 C CNN
 F 1 "510" V 7356 4950 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7080 4950 50  0001 C CNN
 F 3 "~" H 7150 4950 50  0001 C CNN
@@ -216,10 +216,10 @@ Wire Wire Line
 Wire Wire Line
 	3650 4750 5250 4750
 $Comp
-L Device:R R13
+L Device:R R1
 U 1 1 5F93E75F
 P 5200 5200
-F 0 "R13" H 5130 5154 50  0000 R CNN
+F 0 "R1" H 5130 5154 50  0000 R CNN
 F 1 "1K" H 5130 5245 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5130 5200 50  0001 C CNN
 F 3 "~" H 5200 5200 50  0001 C CNN
@@ -231,10 +231,10 @@ Wire Wire Line
 Wire Wire Line
 	5200 4950 5200 5050
 $Comp
-L power:GND #PWR0101
+L power:GND #PWR05
 U 1 1 5F93F532
 P 5200 5400
-F 0 "#PWR0101" H 5200 5150 50  0001 C CNN
+F 0 "#PWR05" H 5200 5150 50  0001 C CNN
 F 1 "GND" H 5205 5227 50  0000 C CNN
 F 2 "" H 5200 5400 50  0001 C CNN
 F 3 "" H 5200 5400 50  0001 C CNN
@@ -270,8 +270,6 @@ F 4 "DNP" H 6700 5708 50  0000 L CNN "Mfg Part #"
 	1    6600 5750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6600 5900 6600 5850
 $Comp
 L fuente_smps_250w-rescue:MountingHole_Pad-Mechanical H4
 U 1 1 5F987739
@@ -284,8 +282,6 @@ F 4 "DNP" H 7000 5708 50  0000 L CNN "Mfg Part #"
 	1    6900 5750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6900 5900 6900 5850
 $Comp
 L fuente_smps_250w-rescue:MountingHole_Pad-Mechanical H1
 U 1 1 5F988874
@@ -299,19 +295,6 @@ F 4 "DNP" H 3750 5708 50  0000 L CNN "Mfg Part #"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR022
-U 1 1 5F98887E
-P 3650 5900
-F 0 "#PWR022" H 3650 5650 50  0001 C CNN
-F 1 "GND" H 3655 5727 50  0000 C CNN
-F 2 "" H 3650 5900 50  0001 C CNN
-F 3 "" H 3650 5900 50  0001 C CNN
-	1    3650 5900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3650 5900 3650 5850
-$Comp
 L fuente_smps_250w-rescue:MountingHole_Pad-Mechanical H2
 U 1 1 5F98888A
 P 3950 5750
@@ -323,39 +306,8 @@ F 4 "DNP" H 4050 5708 50  0000 L CNN "Mfg Part #"
 	1    3950 5750
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR023
-U 1 1 5F988894
-P 3950 5900
-F 0 "#PWR023" H 3950 5650 50  0001 C CNN
-F 1 "GND" H 3955 5727 50  0000 C CNN
-F 2 "" H 3950 5900 50  0001 C CNN
-F 3 "" H 3950 5900 50  0001 C CNN
-	1    3950 5900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3950 5900 3950 5850
-$Comp
-L power:GNDREF #PWR0102
-U 1 1 5F996AFA
-P 6900 5900
-F 0 "#PWR0102" H 6900 5650 50  0001 C CNN
-F 1 "GNDREF" H 6905 5727 50  0000 C CNN
-F 2 "" H 6900 5900 50  0001 C CNN
-F 3 "" H 6900 5900 50  0001 C CNN
-	1    6900 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDREF #PWR0103
-U 1 1 5F99893C
-P 6600 5900
-F 0 "#PWR0103" H 6600 5650 50  0001 C CNN
-F 1 "GNDREF" H 6605 5727 50  0000 C CNN
-F 2 "" H 6600 5900 50  0001 C CNN
-F 3 "" H 6600 5900 50  0001 C CNN
-	1    6600 5900
-	1    0    0    -1  
-$EndComp
+NoConn ~ 3650 5850
+NoConn ~ 3950 5850
+NoConn ~ 6600 5850
+NoConn ~ 6900 5850
 $EndSCHEMATC
