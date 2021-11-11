@@ -13,182 +13,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Device:Q_PNP_EBC Q2
-U 1 1 5F935993
-P 3650 3050
-F 0 "Q2" H 3840 3004 50  0000 L CNN
-F 1 "2N3906" H 3840 3095 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92L_Inline" H 3850 3150 50  0001 C CNN
-F 3 "~" H 3650 3050 50  0001 C CNN
-	1    3650 3050
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:Q_NPN_EBC Q1
-U 1 1 5F937A97
-P 3650 2350
-F 0 "Q1" H 3840 2396 50  0000 L CNN
-F 1 "2N3904" H 3840 2305 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92L_Inline" H 3850 2450 50  0001 C CNN
-F 3 "~" H 3650 2350 50  0001 C CNN
-	1    3650 2350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3750 2550 3750 2700
-Wire Wire Line
-	3450 2350 3300 2350
-Wire Wire Line
-	3300 2350 3300 3050
-$Comp
-L power:+12V #PWR014
-U 1 1 5F93A361
-P 3750 2000
-F 0 "#PWR014" H 3750 1850 50  0001 C CNN
-F 1 "+12V" H 3765 2173 50  0000 C CNN
-F 2 "" H 3750 2000 50  0001 C CNN
-F 3 "" H 3750 2000 50  0001 C CNN
-	1    3750 2000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3750 2000 3750 2150
-$Comp
-L power:GND #PWR015
-U 1 1 5F93ABB6
-P 3750 3550
-F 0 "#PWR015" H 3750 3300 50  0001 C CNN
-F 1 "GND" H 3755 3377 50  0000 C CNN
-F 2 "" H 3750 3550 50  0001 C CNN
-F 3 "" H 3750 3550 50  0001 C CNN
-	1    3750 3550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3750 3550 3750 3250
-$Comp
-L Device:R R9
-U 1 1 5F93B424
-P 3300 3350
-F 0 "R9" H 3370 3396 50  0000 L CNN
-F 1 "1K" H 3370 3305 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3230 3350 50  0001 C CNN
-F 3 "~" H 3300 3350 50  0001 C CNN
-	1    3300 3350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3300 3050 3450 3050
-Wire Wire Line
-	3300 3200 3300 3050
-Connection ~ 3300 3050
-$Comp
-L power:GND #PWR012
-U 1 1 5F93BC23
-P 3300 3550
-F 0 "#PWR012" H 3300 3300 50  0001 C CNN
-F 1 "GND" H 3305 3377 50  0000 C CNN
-F 2 "" H 3300 3550 50  0001 C CNN
-F 3 "" H 3300 3550 50  0001 C CNN
-	1    3300 3550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3300 3550 3300 3500
-Text HLabel 3100 2350 0    50   Input ~ 0
-In_A
-Wire Wire Line
-	3100 2350 3300 2350
-Connection ~ 3300 2350
-$Comp
-L Device:Q_PNP_EBC Q4
-U 1 1 5F93C683
-P 3650 5350
-F 0 "Q4" H 3840 5304 50  0000 L CNN
-F 1 "2N3906" H 3840 5395 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92L_Inline" H 3850 5450 50  0001 C CNN
-F 3 "~" H 3650 5350 50  0001 C CNN
-	1    3650 5350
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:Q_NPN_EBC Q3
-U 1 1 5F93C68D
-P 3650 4700
-F 0 "Q3" H 3840 4746 50  0000 L CNN
-F 1 "2N3904" H 3840 4655 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92L_Inline" H 3850 4800 50  0001 C CNN
-F 3 "~" H 3650 4700 50  0001 C CNN
-	1    3650 4700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3750 4900 3750 5000
-Wire Wire Line
-	3450 4700 3300 4700
-Wire Wire Line
-	3300 4700 3300 5350
-$Comp
-L power:+12V #PWR016
-U 1 1 5F93C69A
-P 3750 4350
-F 0 "#PWR016" H 3750 4200 50  0001 C CNN
-F 1 "+12V" H 3765 4523 50  0000 C CNN
-F 2 "" H 3750 4350 50  0001 C CNN
-F 3 "" H 3750 4350 50  0001 C CNN
-	1    3750 4350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3750 4350 3750 4500
-$Comp
-L power:GND #PWR017
-U 1 1 5F93C6A5
-P 3750 5850
-F 0 "#PWR017" H 3750 5600 50  0001 C CNN
-F 1 "GND" H 3755 5677 50  0000 C CNN
-F 2 "" H 3750 5850 50  0001 C CNN
-F 3 "" H 3750 5850 50  0001 C CNN
-	1    3750 5850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3750 5850 3750 5550
-$Comp
-L Device:R R10
-U 1 1 5F93C6B0
-P 3300 5600
-F 0 "R10" H 3370 5646 50  0000 L CNN
-F 1 "1K" H 3370 5555 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3230 5600 50  0001 C CNN
-F 3 "~" H 3300 5600 50  0001 C CNN
-	1    3300 5600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3300 5350 3450 5350
-Wire Wire Line
-	3300 5450 3300 5350
-Connection ~ 3300 5350
-$Comp
-L power:GND #PWR013
-U 1 1 5F93C6BD
-P 3300 5850
-F 0 "#PWR013" H 3300 5600 50  0001 C CNN
-F 1 "GND" H 3305 5677 50  0000 C CNN
-F 2 "" H 3300 5850 50  0001 C CNN
-F 3 "" H 3300 5850 50  0001 C CNN
-	1    3300 5850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3300 5850 3300 5750
-Text HLabel 3100 4700 0    50   Input ~ 0
+Text HLabel 4400 5000 0    50   Input ~ 0
 In_B
-Wire Wire Line
-	3100 4700 3300 4700
-Connection ~ 3300 4700
 $Comp
 L Device:R R12
 U 1 1 5F942E7F
@@ -250,9 +76,6 @@ F 3 "" H 5900 2100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5900 2100 5900 2000
-Connection ~ 3750 2700
-Wire Wire Line
-	3750 2700 3750 2850
 $Comp
 L Device:R R13
 U 1 1 5F955E3C
@@ -304,15 +127,9 @@ $EndComp
 Wire Wire Line
 	4550 5000 4700 5000
 Wire Wire Line
-	4550 5000 3750 5000
-Connection ~ 4550 5000
-Wire Wire Line
 	4700 5800 4550 5800
 Wire Wire Line
 	4550 5000 4550 5800
-Connection ~ 3750 5000
-Wire Wire Line
-	3750 5000 3750 5150
 $Comp
 L Transformer:TRANSF5 TR?
 U 1 1 5F95F5B9
@@ -341,30 +158,12 @@ F 3 "" H 7100 3800 50  0001 C CNN
 	1    7100 3800
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:Fuse F1
-U 1 1 5F963652
-P 7400 3850
-F 0 "F1" V 7203 3850 50  0000 C CNN
-F 1 "Fuse" V 7294 3850 50  0000 C CNN
-F 2 "Fuse:Fuse_Blade_ATO_directSolder" V 7330 3850 50  0001 C CNN
-F 3 "~" H 7400 3850 50  0001 C CNN
-	1    7400 3850
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7550 3850 7650 3850
-Wire Wire Line
-	7250 3850 7100 3850
 Wire Wire Line
 	7100 3850 7100 3800
-Wire Wire Line
-	3750 2700 4550 2700
 Wire Wire Line
 	4700 1800 4550 1800
 Wire Wire Line
 	4550 1800 4550 2700
-Connection ~ 4550 2700
 Wire Wire Line
 	4550 2700 4700 2700
 Wire Wire Line
@@ -496,4 +295,14 @@ F 3 "https://www.infineon.com/dgdl/irfz44npbf.pdf?fileId=5546d462533600a40153563
 	1    5800 5800
 	1    0    0    1   
 $EndComp
+Wire Wire Line
+	4400 5000 4550 5000
+Connection ~ 4550 5000
+Text HLabel 4350 2700 0    50   Input ~ 0
+In_A
+Wire Wire Line
+	4350 2700 4550 2700
+Connection ~ 4550 2700
+Wire Wire Line
+	7100 3850 7650 3850
 $EndSCHEMATC
